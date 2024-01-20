@@ -1,0 +1,59 @@
+Initialize engine version: 5.3.4f1 (fdbb5133b820)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15d8)
+    Vendor:   ATI
+    VRAM:     2033 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\apodr\OneDrive\Documentos\Unity\CubeWarsDemo\CubeWarsDemo\cube_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\apodr\OneDrive\Documentos\Unity\CubeWarsDemo\CubeWarsDemo\cube_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\apodr\OneDrive\Documentos\Unity\CubeWarsDemo\CubeWarsDemo\cube_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\apodr\OneDrive\Documentos\Unity\CubeWarsDemo\CubeWarsDemo\cube_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\apodr\OneDrive\Documentos\Unity\CubeWarsDemo\CubeWarsDemo\cube_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\apodr\OneDrive\Documentos\Unity\CubeWarsDemo\CubeWarsDemo\cube_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\apodr\OneDrive\Documentos\Unity\CubeWarsDemo\CubeWarsDemo\cube_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\apodr\OneDrive\Documentos\Unity\CubeWarsDemo\CubeWarsDemo\cube_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.076 seconds
+Platform assembly: C:\Users\apodr\OneDrive\Documentos\Unity\CubeWarsDemo\CubeWarsDemo\cube_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\apodr\OneDrive\Documentos\Unity\CubeWarsDemo\CubeWarsDemo\cube_Data\Managed\System.dll (this message is harmless)
+desktop: 1360x768 60Hz; virtual: 2128x1366 at 0,-37
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.164400 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at FATEC.CubeWars.Menu.InstructionsScreen.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FATEC.CubeWars.Menu.InstructionsScreen.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 6ae0 -> priority: 1 
+  Thread -> id: 6360 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 9.956100 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2012.
+Total: 1.125200 ms (FindLiveObjects: 0.167000 ms CreateObjectMapping: 0.087700 ms MarkObjects: 0.837300 ms  DeleteObjects: 0.029300 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.710800 ms
+
+Unloading 1039 unused Assets to reduce memory usage. Loaded Objects now: 579.
+Total: 1.940200 ms (FindLiveObjects: 0.178400 ms CreateObjectMapping: 0.058100 ms MarkObjects: 0.995000 ms  DeleteObjects: 0.706800 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FATEC.CubeWars.Menu.InstructionsScreen.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FATEC.CubeWars.Menu.InstructionsScreen.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+

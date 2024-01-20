@@ -1,0 +1,74 @@
+Changelog
+
+1.2.0c:
+Fixed AI not waiting to start moving;
+Added AI warning message when they started moving;
+
+1.2.0b:
+Changed Super Coin rotating speed;
+Tweaked Super Coin materials;
+Fixed Super Coin icon not showing in minimap;
+Fixed Super Coin rotating while in pause;
+
+1.2.0a:
+Implemented Super Coin: a coin with a value of 30 will randomly spawn on the map at random times and disappear after some time;
+Updated Time Coin: now different values have different chances to be given (thanks to my brother Ciro for the tip);
+Updated Soldier and Tank enemies to have a defensive instance at 1/4 of chance;
+Tweaked Warning Message Box;
+Added a Wait variable at the start of the game for enemy units wait before attacking;
+Added multiples Enemy Bases (each destroyed base gives 50 coins);
+Tweaked many values to balance against multiples bases (tests are due);
+Tweaked coding to improve performance (further tests are due);
+Tweaked camera movement;
+Improved and fixed Field Units Counter preventing it to wrongly count units;
+Increased bases size;
+Fixed some layers visibility;
+Updated instructions: screens are now up to date;
+
+1.0.0b:
+Added Fitness: now every unit has slightly different movement speed, shooting delay and detection area, some more and some less, respecting its properties;
+Updated instructions: screens are now up to date;
+Revamped enemy metalGear offensive/defensive AI: now each meatlGear decides if it will attack the Player base or defend its own;
+Fixed an error causing Field Units Count going under 0 at some rare occasions;
+
+1.0.0a:
+Added Fog of War shader covering the entire map and minimap;
+Added Fog Revealer Aperture to Player units: their reveal area are pretty much the same as their detection area;
+Added Enemy Base random spawn points at the start of the match;
+Tweaked camera zooming capabilities (may still need a revamp);
+Fixed some minor issues regarding NavMesh map causing some units to be locked at some walls (still need further investigation);
+Fixed an issue with UI and shaders rendering order causing some objects to wrongly appear in front of others;
+Fixed an error where units wouldn't be descelected when selecting new units with Box Selection without left ctrl;
+Fixed an error that was making it impossible to select units when located at some edges of the screen;
+Fixed an error with Box Selection where units inside the Box Selection were not being selected in real time;
+Fixed an error that was causing units to be descelected when moving the camera via minimap;
+################# ALPHA START #################
+
+0.9.8.1:
+Implemented Particle System as Units spawn effect;
+Fixed an issue that caused the enemy Metal Gear to stop for nothing and getting too close to the Player Base;
+Fixed an issue where the return to main menu in game button led to the last page of instructions you were when game started;
+Added Field Units amount warning to the Unit section of Instructions;
+
+0.9.8a:
+Lessened soldier health from 5 to 1;
+
+0.9.8:
+Implemented Field Units Count (max 50): now it's only possible to have up to 50 units at the same time on field
+	a indicator shows how many units you current have and can have right under the Coin counter
+	a message also appears if you try to create units whilst having reached maximum warning you you can't create any more units;
+(Field Units section on instructions still pending)
+Skybox changed to solid color (0,0,0);
+Lessened bases health (from 5000 to 1000);
+Lessened unit destruction coin gain (from (3,7,15) to (1,3,5));
+Tweaked Coin counter UI;
+Tweaked enemy spawn AI;
+Tweaked enemy Time Bonus gain;
+Tweaked destination arrow color;
+Fixed enemy Coin Limit;
+Fixed enemy Metal Gear not prioritizing Player base;
+Fixed a error causing selected units to be descelected when left clicking certain areas of the screen
+	without left ctrl pressed caused by Box Selection script;
+
+0.9.7:
+Start of Log
